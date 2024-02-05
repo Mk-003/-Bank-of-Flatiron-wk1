@@ -1,8 +1,7 @@
-import { useEffect,useState } from 'react';
-import './App.css';
-import TransactionTable from './TransactionTable';
-import SearchBar from './SearchBar';
-import TransactionForm from './TransactionForm';
+import React,{useState,useEffect}from 'react';
+import TransactionTable from './components/TransactionalTable';
+import SearchBar from './components/SearchBar';
+import TransactionForm from './components/TransactionalForm';
 
 
 function App() {
