@@ -26,8 +26,8 @@ const addTransaction = (newTransaction) => {
   return (
     <div className="App">
       <h1>Bank of Flatiron</h1>
+      <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm}/> 
       <TransactionTable transactions={transactions} searchTerm={searchTerm}/>
-      <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm}/>
       <TransactionForm addTransaction={addTransaction}/>
     </div>
   );
